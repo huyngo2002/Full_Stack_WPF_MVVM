@@ -11,8 +11,8 @@ using SimpleTrader.EntityFramework;
 
 namespace SimpleTrader.EntityFramework.Migrations
 {
-    [DbContext(typeof(SimpleTraderDbContextFactory))]
-    [Migration("20230714083154_initial")]
+    [DbContext(typeof(SimpleTraderDbContext))]
+    [Migration("20230715010631_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
